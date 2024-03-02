@@ -1,7 +1,7 @@
 const app = require("./app");
 const config = require("./app/config");
 
-// start the server
+// start server
 const PORT = config.app.port;
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}.`);
